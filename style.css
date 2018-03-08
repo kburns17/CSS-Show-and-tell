@@ -1,0 +1,75 @@
+body{
+  background-color: oldlace;
+}
+
+h1{
+  text-align: center;
+  font-family: times;
+}
+.button{
+}
+@keyframes red {
+    from {background-color: red;}
+    to {background-color: oldlace;}
+}
+@keyframes blue {
+        from {background-color: blue;}
+        to {background-color: oldlace;}
+}
+@keyframes green {
+        from {background-color: green;}
+        to {background-color: oldlace;}
+}
+@keyframes yellow {
+        from {background-color: yellow;}
+        to {background-color: oldlace;}
+}
+
+.Red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  animation-name: red;
+  animation-duration: 5s;
+}
+
+.Blue{
+  background-color: Blue;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  animation-name: blue;
+  animation-duration: 5s;
+}
+
+.Green{
+  background-color: Green;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  animation-name: green;
+  animation-duration: 5s;
+}
+
+.Yellow{
+  background-color: Yellow;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  animation-name: yellow;
+  animation-duration: 5s;
+}
+
+.layout{
+width: 50%;
+padding: 10px
+}
